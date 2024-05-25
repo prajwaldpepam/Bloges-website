@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+}
+.header-container
+{
+   background-color:rgb(17, 17, 54);
+   color: white;
+   display: flex ;
+   align-items: center;
+   justify-content: space-between;
+   height: 70px;
+   width: auto;
+   padding: 20px;
+
+
+}
+.header-container img{
+    border-radius: 50%;
+    
+}
+.logotext{
+    margin-left: -100px;
+    flex-grow:1;
+    text-align: center;
+    
+}
+.logotext h4{
+    margin-top: -20px;
+}
+.nav{
+    border-bottom: 1px black solid;
+    display: flex;
+    justify-content:space-between;
+    height: 60px;
+    width: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav div{
+    margin-top: 8px;
+    
+}
+.select{
+    width:70%;
+}
+input[type="submit"]{
+    background-color: rgb(30, 30, 65);
+    color: white;
+    border-radius: 10px;
+}
+
+.blog-container{
+    display: flex;
+    border-bottom: 1px black solid;
+    width: auto;
+}
+.blog-img{
+  padding: 20px;
+  
+  
+}
+.blog-img img{
+    border-radius: 8px;
+    max-width: 150;
+    
+}
+.blog1text{
+    padding-left:10px ; 
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+.blog1text p{
+    text-align: justify;
+}
+.read-more{
+   
+}
+
+.footer{
+    background-color:rgb(17, 17, 54);
+    padding: 5px ;
+    color: white;
+  
+
+    
+}
+.footer h2{
+ 
+ text-align: center;
+ 
+}
+.footer div{
+    
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    
+    list-style-type: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    body {
+      margin: 0;
+    }
+    .nav div{
+        font-size: 0.8rem;
+    }
+    .nav h2{
+        font-size: large;
+    }
+    .input{
+        max-width: 70px;
+    }
+
+    .blog-container{
+        display: block;
+        
+        
+    }
+    .blog-img{
+        margin-left:100px;
+        
+    }
+
+    .blog1text{
+        padding-left: 20px;
+    }
+   
+    .footer div{
+        margin: 0;
+        
+      }
+      
+  }
+
+  @media only screen and (max-width: 420px) {
+  .logotext{
+    margin-left: 2rem;
+
+    }
+    .blog-img{
+        margin-left: 30px;
+    }
+
+}
